@@ -1,3 +1,3 @@
-MYSQL_HOST: ansible.mysql.practice25@.online
+MYSQL_HOST: ansible.mysql.practice25.online
 MYSQL_USER: root
 LOGIN_PASSWORD: ExpenseAPP@1
