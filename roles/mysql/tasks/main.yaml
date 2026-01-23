@@ -27,7 +27,7 @@
       community.mysql.mysql_info:
         login_user: root
         login_password: "{{ mysql_root_password }}"
-        login_host: ansible-mysql.practice25.online
+        login_host: ansible.mysql.practice25.online
       register: mysql_info
       ignore_errors: true
 
