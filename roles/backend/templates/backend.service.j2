@@ -1,9 +1,9 @@
 [Unit]
-Description= Backend service
+Description=Backend service
 
 [Service]
 User=expense
-Environment=DB_HOST= ansible.mysql.practice25.online
+Environment=DB_HOST={{ MYSQL_HOST }}
 MYSQL_USER: root
 LOGIN_PASSWORD: ExpenseAPP@1
 ExecStart=/bin/node /app/index.js

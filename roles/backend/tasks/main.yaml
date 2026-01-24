@@ -52,7 +52,7 @@
 - name: import mysql data
   community.mysql.mysql_db:
     state: import
-    name: all
+    name: expense
     login_user: "{{ MYSQL_USER }}"
     login_password: "{{ LOGIN_PASSWORD }}"
     login_host: "{{ MYSQL_HOST }}"
