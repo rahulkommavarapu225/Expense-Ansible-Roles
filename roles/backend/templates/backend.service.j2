@@ -4,6 +4,7 @@ Description=Backend service
 [Service]
 User=expense
 Environment=DB_HOST={{ MYSQL_HOST }}
+Environment=DB_NAME=transactions
 MYSQL_USER: root
 LOGIN_PASSWORD: ExpenseAPP@1
 ExecStart=/bin/node /app/index.js
