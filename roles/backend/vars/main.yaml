@@ -1,3 +1,5 @@
-MYSQL_HOST: 172.31.78.100
+MYSQL_HOST: ansible.mysql.practice25.online
 MYSQL_USER: root
 LOGIN_PASSWORD: ExpenseAPP@1
+APP_LOCATION: /app
+COMPONENT: backend
