@@ -16,7 +16,7 @@
   ansible.builtin.user:
     name: expense
 
-- name : incllude from comman roles
+- name : include from comman role
   include_role: "https://expense-builds.s3.us-east-1.amazonaws.com/expense-{{ COMPONENT }}-v2.zip"
   name: comman
   tasks_from: main
