@@ -1,7 +1,10 @@
 - name: configure mysql server
   hosts: mysql
   become: yes
-  vars_file:
+  vars_files:
     - roles/mysql/vars/vault.yaml
   roles:
     - mysql
+
+
+
