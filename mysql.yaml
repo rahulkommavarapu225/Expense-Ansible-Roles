@@ -5,6 +5,3 @@
     - roles/mysql/vars/vault.yaml
   roles:
     - mysql
-
-
-
